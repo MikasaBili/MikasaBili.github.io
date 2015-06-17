@@ -8,11 +8,10 @@
 	height: 481px;
 	position: relative;
 	overflow: hidden;
-	/*border:1px solid red;*/
 }
 .left{
 	width: 720px;
-	transition:width 1.5s ease;
+	transition:width 1.5s ease 0.9s;
 	background: url(./images/demo-2.jpg) no-repeat;
 	height: 481px;
 	z-index: 2;
@@ -24,7 +23,4 @@
 	background: url(./images/demo-1.jpg) no-repeat;
 	z-index: 1;
 	position: absolute;
-}
-.left:hover{
-	width: 40%;
 }
